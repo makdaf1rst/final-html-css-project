@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+   padding: 0;
+   margin: 0;
+   box-sizing: border-box;
+   font-family: 'Roboto', sans-serif;
+}
+
+.purple {
+    color: #6415ff;
+}
+
+ul {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+h1, h2 {
+    font-size: 48px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+h4 {
+    font-size: 16px;
+}
+
+p {
+    font-size: 18px;
+}
+
+.row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: #6415ff;
+    color: white;
+    border-style: none;
+    padding: 24px;
+    margin: 2px 0;
+    border-radius: 999px;
+    cursor: pointer;
+    font-size: 16px;
+    height: 10px;
+}
+
+/*
+
+LANDING
+
+*/
+
+.nav__row {
+    max-width: 1274px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 24px;
+}
+
+.nav__logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__logo--img {
+    height: 65px;
+    max-height: 5.5vh;
+    margin: 8px;
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 324px;
+}
+
+.nav__link {
+    margin-left: 16px;
+    align-items: center;
+    justify-content: center;
+}
+
+.nav__btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 12px;
+    height: 10px;
+    width: 124px;
+}
+
+.hero {
+    display: flex;
+    padding: 127px 0;
+}
+
+.hero__info {
+    width: 40%;
+}
+
+.cta {
+    display: flex;
+    max-width: 500px;
+    border-radius: 999px;
+}
+
+.subtext__our-customers {
+    color: #a0aec0;
+    font-weight: 700;
+    font-size: 12px;
+    margin-top: 80px;
+}
+
+.cx-logos {
+    width: 100%;
+    max-width: 1000px;
+    margin-top: 20px;
+}
+
+.cx-logos img {
+    width: 90%;
+    
+}
+
+.hero__img {
+    flex: 1;
+    max-width: 60%;
+    display: flex;
+    align-items:last baseline;
+    justify-content: space-between;
+    width: 60%;
+    margin-left: 20px;
+}
+
+.hero__img img {
+    max-width: 110%;
+}
